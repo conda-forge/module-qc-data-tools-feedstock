@@ -39,6 +39,7 @@ requirements:
     - typer >=0.9.0
     - typing_extensions
     - itksn >=0.4.2
+    - rfc3339-validator
 
 tests:
   - python:
