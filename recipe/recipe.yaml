@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: module-qc-data-tools
   version: "1.7.1"
-  python_min: '3.10'
 
 package:
   name: ${{ name|lower }}
@@ -47,7 +46,9 @@ tests:
       imports:
         - module_qc_data_tools
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
   - requirements:
       run:
         - python ${{ python_min }}.*
