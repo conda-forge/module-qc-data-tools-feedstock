@@ -40,6 +40,7 @@ requirements:
     - typing_extensions
     - itksn >=0.4.2
     - rfc3339-validator
+    - rfc3986-validator
 
 tests:
   - python:
