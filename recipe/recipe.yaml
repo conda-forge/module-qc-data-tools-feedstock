@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: module-qc-data-tools
-  version: "1.4.0"
+  version: "1.5.0"
   python_min: '3.10'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/module_qc_data_tools-${{ version }}.tar.gz
-  sha256: 8b2b6aec0465bdfc0d40fd565a557ac9babb7544cb7051e55e10fcece4401388
+  sha256: 785c7a6391c1e56d82030927641313e1a0c5b0bf598bc8dd575a0454b18845e5
 
 build:
   number: 0
